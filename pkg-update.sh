@@ -11,3 +11,5 @@ curl -Ls https://raw.githubusercontent.com/openwrt/packages/master/net/sing-box/
 
 # v2ray-data
 git clone https://github.com/pmkol/v2ray-geodata v2ray-geodata
+
+ls

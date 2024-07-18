@@ -3,10 +3,10 @@
 # Notes: package install script for OpenWrt 22.03+
 #
 # Project home page:
-#        https://github.com/pmkol/openwrt-package
+#        https://github.com/pmkol/openwrt-packages
 #
 default_pkg_list=("sing-box" "xray-core")
-default_git_path="https://github.com/pmkol/openwrt-package"
+default_git_path="https://github.com/pmkol/openwrt-packages"
 pkg_name=("${default_pkg_list[@]}")
 git_path="$default_git_path"
 

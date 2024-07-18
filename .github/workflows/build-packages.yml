@@ -27,7 +27,6 @@ jobs:
       - name: Update Packages
         run: 
           bash pkg-update.sh
-          ls
 
       - name: Build Packages
         uses: pmkol/openwrt-gh-action-sdk@amd64v2

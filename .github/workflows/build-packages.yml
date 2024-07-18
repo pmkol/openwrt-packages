@@ -33,7 +33,7 @@ jobs:
         env:
           ARCH: ${{ matrix.arch }}-${{ matrix.tag }}
           FEEDNAME: packages_ci
-          PACKAGES: xray-core sing-box homeproxy
+          PACKAGES: xray-core sing-box v2ray-geodata
           NO_REFRESH_CHECK: true
           IGNORE_ERRORS: true
 
